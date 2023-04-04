@@ -1,0 +1,38 @@
+
+.lista{
+    margin: 0 0 30px 9% ;
+}
+
+.informacion h2{
+    text-align: center;
+}
+
+.informacion h3{
+    text-align: center;
+    color: #5a1a35;
+}
+
+.volverUp a{
+    text-decoration: none;
+    color: #266f5f;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.volverUp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+
+    margin: 20px;
+    bottom: 0;
+    right: 0;
+    height: 60px;
+    width: 60px;
+    /* background-color: rgb(56, 119, 13); */
+    background-color: transparent;
+    text-align: center;
+    border-radius: 100%;
+}
