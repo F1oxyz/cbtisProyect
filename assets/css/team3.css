@@ -1,0 +1,76 @@
+.informacion h2{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.oODS {
+    height: 200px;
+    width: 200px;
+    margin: 1.9%;
+    cursor: pointer;
+}
+
+.oODS:hover {
+    opacity: 0.8;
+}
+
+.infobtn{
+    margin: 0 40px 10px 0;
+    padding: 5px;
+    background-color: #f16c2598;
+    border-radius: 0 10px 10px 10px;
+    border-style:solid;
+    border-width: 3px;
+    border-color: #61606067;
+}
+
+.infobtn.invisible,
+.info2btn.invi2btn,
+.info3btn.clasebtn,
+.info4btn.otraclase,
+.info5btn.claseinvi
+{
+    display: none;
+}
+
+
+.abrir-btnOB,
+.cerrar-btnOB{
+    background-color: transparent;
+    border: none;
+}
+
+.cerrar-btnOB{
+    margin-left: 5px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.info2btn{
+    background-color: #de1c849a;
+    border-radius: 0 10px 10px 10px;
+    border-style:solid;
+    border-width: 3px;
+    border-color: #61606067;
+}
+.info3btn{
+    background-color: #f79d269f;
+    border-radius: 0 10px 10px 10px;
+    border-style:solid;
+    border-width: 3px;
+    border-color: #61606067;
+}
+.info4btn{
+    background-color: #cd8b2ea2;
+    border-radius: 0 10px 10px 10px;
+    border-style:solid;
+    border-width: 3px;
+    border-color: #61606067;
+}
+.info5btn{
+    background-color: #4e7a479a;
+    border-radius: 0 10px 10px 10px;
+    border-style:solid;
+    border-width: 3px;
+    border-color: #61606067;
+}

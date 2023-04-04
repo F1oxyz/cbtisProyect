@@ -1,0 +1,31 @@
+body{
+    min-width: 440px;
+}
+
+.informacion h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.informacion h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imagenAli {
+    padding: 2rem 0 0 0;
+    margin: auto;
+    /* background: #0C231E; */
+    width: 60%;
+    height: 45%;
+}
+
+
+.imagenAli img {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.lista{
+    margin: 0 0 30px 9% ;
+}

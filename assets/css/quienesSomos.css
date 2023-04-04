@@ -1,0 +1,41 @@
+
+
+.sub-titulo{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.divimagen, .divimagenedwi{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.divimagen img{
+    height: 300px;
+    width: 420px;
+    border-radius: 10px;
+}
+
+.divimagenedwi img{
+    height: 300px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.valores,
+.compe{
+    margin: 0 0 30px 9% ;
+}
+
+
+
+@media screen and (max-width: 530px) {
+    .divimagen img{
+        height: 220px;
+        width: 330px;
+        border-radius: 10px;
+    }
+}
