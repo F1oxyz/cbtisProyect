@@ -29,3 +29,54 @@ body{
 .lista{
     margin: 0 0 30px 9% ;
 }
+
+.submenu{
+    background-color: #0c231e;
+    padding: 1rem 3rem 10px 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-submenu ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.list-submenu a{
+    text-decoration: none;
+    color: #ececec;
+}
+
+
+.volverUp a{
+    text-decoration: none;
+    color: #266f5f;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.volverUp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+
+    margin: 20px;
+    bottom: 0;
+    right: 0;
+    height: 60px;
+    width: 60px;
+    /* background-color: rgb(56, 119, 13); */
+    background-color: transparent;
+    text-align: center;
+    border-radius: 100%;
+}
+
+/* @media screen and (max-width: 850px) {
+
+    
+} */
