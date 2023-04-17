@@ -36,3 +36,204 @@
     text-align: center;
     border-radius: 100%;
 }
+
+/* 
+#verde{
+    border-radius: 50px;
+    background-color: #337c6c;
+  }
+  #social{
+    border-radius: 50px;
+    background-color:coral;
+  }
+  #didactico{
+    border-radius: 50px;
+    background-color:yellow;
+  }
+  #software{
+    border-radius: 50px;
+    background-color:darkcyan;
+  }
+  #tecnologico{
+    border-radius: 50px;
+    background-color:grey;
+  }
+  #Ganadores{
+    border-radius: 50px;
+    background-color:gold
+  }
+
+  
+  #uno{
+    grid-column: 1/1;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .dos{
+    grid-column: 2/2;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .tres{
+    grid-column: 3/3;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .cuatro{
+    grid-template-rows: 4/4;
+    margin: 5px;
+    padding: 5px;
+  }
+  .cinco{
+    margin: 5px;
+    padding: 5px;
+  }
+  .seis{
+    margin: 5px;
+    padding: 5px;
+  }
+  .siete{
+    margin: 5px;
+    padding: 5px;
+  }
+  .ocho{
+    margin: 5px;
+    padding: 5px;
+  }
+  .nueve{
+    margin: 5px;
+    padding: 5px;
+  }
+  .diez{
+    margin: 5px;
+    padding: 5px;
+  }
+  .once{
+    margin: 5px;
+    padding: 5px;
+  }
+  .doce{
+    margin: 5px;
+    padding: 5px;
+  }
+  .trece{
+    margin: 5px;
+    padding: 5px;
+  }
+  .cuatro{
+    margin: 5px;
+    padding: 5px;
+  }
+  .quice{
+    margin: 5px;
+    padding: 5px;
+  }
+  .empre-verde{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  .empre-verde div{
+    border-style: solid;
+    border-color: #0C231E;
+    border-radius: 10px;
+  }
+  .empre-verde img{
+    border-radius: 10px;
+  }
+  
+  .empre-social{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  .empre-social div{
+    border-style: solid;
+    border-color: #0C231E;
+    border-radius: 10px;
+  }
+  .empre-social img{
+    border-radius: 10px;
+  }
+  
+  .proto-didac{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+  }
+  .proto-didac div{
+    border-style: solid;
+    border-color: #0C231E;
+    border-radius: 10px;
+  }
+  .proto-didac img{
+    border-radius: 10px;
+  }
+  .proto-soft{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+  }
+  .proto-soft div{
+    border-style: solid;
+    border-color: #0C231E;
+    border-radius: 10px;
+  }
+  .proto-soft img{
+    border-radius: 10px;
+  }
+  .proto-tecno{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  .proto-tecno div{
+    border-style: solid;
+    border-color: #0C231E;
+    border-radius: 10px;
+  }
+  .proto-tecno img{
+    border-radius: 10px;
+  }
+  .ganadores{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  }
+  .ganadores div{
+    border-style: solid;
+    border-color: gold;
+    border-radius: 10px;
+  }
+  .verde{
+    grid-column: 1/1;
+    margin: 5px;
+    padding: 5px;
+  }
+  .social{
+    grid-column: 2/2;
+    margin: 5px;
+    padding: 5px;
+  }
+  .didac{
+    grid-column: 3/3;
+    margin: 5px;
+    padding: 5px;
+  }
+  .soft{
+    grid-column: 4/4;
+    margin: 5px;
+    padding: 5px;
+  }
+  .tecno{
+    grid-column: 5/5;
+    margin: 5px;
+    padding: 5px;
+  }
+
+ @media screen and (max-width: 1120px) {
+   
+} */
