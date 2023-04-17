@@ -1,0 +1,13 @@
+.divimagen{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.divimagen img{
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+}
