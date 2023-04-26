@@ -37,6 +37,52 @@
     border-radius: 100%;
 }
 
+.empre-verde{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20%;
+  padding-top: 10px;
+  background-color: #337c6c;
+  border-radius: 10px;
+}
+
+.empre-social{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20%;
+  padding-top: 10px;
+  background-color: #ec655b;
+  border-radius: 10px;
+}
+
+.proto-didac{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20%;
+  padding-top: 10px;
+  background-color: #e9d1a5;
+  border-radius: 10px;  
+}
+
+.proto-soft{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20%;
+    padding-top: 10px;
+    background-color: #92b6d8;
+    border-radius: 10px;
+}
+
+.proto-tecno{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20%;
+    padding-top: 10px;
+    background-color: #bbbbbb;
+    border-radius: 10px;
+}
+
+
 /* 
 #verde{
     border-radius: 50px;
