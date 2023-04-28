@@ -37,254 +37,148 @@
     border-radius: 100%;
 }
 
-.empre-verde{
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 20%;
-  padding-top: 10px;
+/* ------------------------------- */
+/*      EMPRENDIMIENTO VERDE       */
+/* ------------------------------- */
+
+.titulo-verde{
   background-color: #337c6c;
-  border-radius: 10px;
-  gap: 100px;
+  color: #1e1e1e;
+  border-radius: 15px;
 }
 
-.empre-social{
+.ganadores{
+  margin-top: 10px;
+  background-color: #c7b519;
+  border-radius: 15px;
+}
+
+.ganadores h2{
+  background-color: #c7b519;
+  color: #1e1e1e;
+  border-radius: 15px;
+}
+
+.ganadores-imgs{
   display: flex;
+  justify-content: space-between;
+  padding: 10px 80px;
   flex-wrap: wrap;
-  padding-left: 20%;
-  padding-top: 10px;
-  background-color: #ec655b;
+}
+
+.ganadores-imgs img,
+.participantes-verde img,
+.divImgs img{
   border-radius: 10px;
-  gap: 100px;
 }
 
-.proto-didac{
+.participantes-verde{
+  background-color: #337c6c;
+  color: #1e1e1e;
+  border-radius: 15px;
+
   display: flex;
+  flex-direction: row;
+  gap: 30px 10%;
+  padding: 40px 100px;
   flex-wrap: wrap;
-  padding-left: 20%;
-  padding-top: 10px;
-  background-color: #e9d1a5;
-  border-radius: 10px;  
-  gap: 100px;
-}
-
-.proto-soft{
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 20%;
-    padding-top: 10px;
-    background-color: #92b6d8;
-    border-radius: 10px;
-    gap: 100px;
-}
-
-.proto-tecno{
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 20%;
-    padding-top: 10px;
-    background-color: #bbbbbb;
-    border-radius: 10px;
-    gap: 100px;
+  align-items: center;
 }
 
 
-/* 
-#verde{
-    border-radius: 50px;
-    background-color: #337c6c;
-  }
-  #social{
-    border-radius: 50px;
-    background-color:coral;
-  }
-  #didactico{
-    border-radius: 50px;
-    background-color:yellow;
-  }
-  #software{
-    border-radius: 50px;
-    background-color:darkcyan;
-  }
-  #tecnologico{
-    border-radius: 50px;
-    background-color:grey;
-  }
-  #Ganadores{
-    border-radius: 50px;
-    background-color:gold
-  }
 
-  
-  #uno{
-    grid-column: 1/1;
-    margin: 5px;
-    padding: 5px;
-  }
-  
-  .dos{
-    grid-column: 2/2;
-    margin: 5px;
-    padding: 5px;
-  }
-  
-  .tres{
-    grid-column: 3/3;
-    margin: 5px;
-    padding: 5px;
-  }
-  
-  .cuatro{
-    grid-template-rows: 4/4;
-    margin: 5px;
-    padding: 5px;
-  }
-  .cinco{
-    margin: 5px;
-    padding: 5px;
-  }
-  .seis{
-    margin: 5px;
-    padding: 5px;
-  }
-  .siete{
-    margin: 5px;
-    padding: 5px;
-  }
-  .ocho{
-    margin: 5px;
-    padding: 5px;
-  }
-  .nueve{
-    margin: 5px;
-    padding: 5px;
-  }
-  .diez{
-    margin: 5px;
-    padding: 5px;
-  }
-  .once{
-    margin: 5px;
-    padding: 5px;
-  }
-  .doce{
-    margin: 5px;
-    padding: 5px;
-  }
-  .trece{
-    margin: 5px;
-    padding: 5px;
-  }
-  .cuatro{
-    margin: 5px;
-    padding: 5px;
-  }
-  .quice{
-    margin: 5px;
-    padding: 5px;
-  }
-  .empre-verde{
-    text-align: center;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-  }
-  .empre-verde div{
-    border-style: solid;
-    border-color: #0C231E;
-    border-radius: 10px;
-  }
-  .empre-verde img{
-    border-radius: 10px;
-  }
-  
-  .empre-social{
-    text-align: center;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-  }
-  .empre-social div{
-    border-style: solid;
-    border-color: #0C231E;
-    border-radius: 10px;
-  }
-  .empre-social img{
-    border-radius: 10px;
-  }
-  
-  .proto-didac{
-    text-align: center;
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-  }
-  .proto-didac div{
-    border-style: solid;
-    border-color: #0C231E;
-    border-radius: 10px;
-  }
-  .proto-didac img{
-    border-radius: 10px;
-  }
-  .proto-soft{
-    text-align: center;
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-  }
-  .proto-soft div{
-    border-style: solid;
-    border-color: #0C231E;
-    border-radius: 10px;
-  }
-  .proto-soft img{
-    border-radius: 10px;
-  }
-  .proto-tecno{
-    text-align: center;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-  }
-  .proto-tecno div{
-    border-style: solid;
-    border-color: #0C231E;
-    border-radius: 10px;
-  }
-  .proto-tecno img{
-    border-radius: 10px;
-  }
-  .ganadores{
-    text-align: center;
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-  }
-  .ganadores div{
-    border-style: solid;
-    border-color: gold;
-    border-radius: 10px;
-  }
-  .verde{
-    grid-column: 1/1;
-    margin: 5px;
-    padding: 5px;
-  }
-  .social{
-    grid-column: 2/2;
-    margin: 5px;
-    padding: 5px;
-  }
-  .didac{
-    grid-column: 3/3;
-    margin: 5px;
-    padding: 5px;
-  }
-  .soft{
-    grid-column: 4/4;
-    margin: 5px;
-    padding: 5px;
-  }
-  .tecno{
-    grid-column: 5/5;
-    margin: 5px;
-    padding: 5px;
-  }
+/* ------------------------------- */
+/*     EMPRENDIMIENTO SOCIAL       */
+/* ------------------------------- */
 
- @media screen and (max-width: 1120px) {
-   
-} */
+
+.titulo-social{
+  background-color: coral;
+  color: #1e1e1e;
+  border-radius: 15px;
+}
+
+.participantes-social{
+  background-color: coral;
+  color: #1e1e1e;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 30px 10%;
+  padding: 40px 100px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* ------------------------------- */
+/*    PROTOTIPO  DIDACTICO         */
+/* ------------------------------- */
+
+.titulo-didactico{
+  background-color: #e6dc89;
+  color: #1e1e1e;
+  border-radius: 15px;
+}
+
+.participantes-didac{
+  background-color: #e6dc89;
+  color: #1e1e1e;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 30px 10%;
+  padding: 40px 100px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+/* ------------------------------- */
+/*    PROTOTIPO DE SOFTWARE        */
+/* ------------------------------- */
+
+.titulo-software{
+  background-color: #5095e4;
+  color: #1e1e1e;
+  border-radius: 15px;
+}
+
+#ganadores-software,
+#ganadores-software h2{
+  background-color: #8dbdf3;
+}
+.divImgs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* ------------------------------- */
+/*    PROTOTIPO TECNOLOGICO         */
+/* ------------------------------- */
+
+
+.titulo-tecno{
+  background-color: #7c7979;
+  border-radius: 15px;
+}
+
+.participantes-tecno{
+  background-color: #7c7979;
+  color: #1e1e1e;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 30px 10%;
+  padding: 40px 100px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+
+
