@@ -1,0 +1,41 @@
+.informacion h2{
+    text-align: center;
+}
+
+/* .boton-1{
+    position: fixed;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    bottom: 10px;
+    right: 0;
+    border-radius: 15px;
+}
+
+.boton-1 a{
+    color: white;
+    text-decoration: none;
+    
+} */
+
+.submenu{
+    background-color: #0c231e;
+    padding: 1rem 3rem 10px 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-submenu ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.list-submenu a{
+    text-decoration: none;
+    color: #ececec;
+}
+
