@@ -1,6 +1,31 @@
 .informacion h2{
     text-align: center;
 }
+/* 
+*{
+    color: #ececec;
+} */
+
+body{
+    background-image: url("../img/ecologia/back1.jpg");
+    /* background-size: cover;
+    background-position: center; */
+}
+
+.backColor{
+    background-color: #77757523;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.informacion ul{
+    margin: 50px;
+}
 
 /* .boton-1{
     position: fixed;
