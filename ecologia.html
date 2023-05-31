@@ -168,6 +168,19 @@
             <div class="imagen">
                 <img src="./assets/img/ecologia/reforestacion.jpg" alt="reforestacion" width="500">
             </div>
+            <!-- ----------------------------------- -->
+            <!--          SUBIR IMAGENES             -->
+            <!-- ----------------------------------- -->
+            <form action="./bd/subir.php" method="post" enctype="multipart/form-data">
+                <label for="imagen">Seleccionar imagen:</label>
+                <input type="file" id="imagen" name="imagen"/>
+                <input type="submit" name="submit" value="SUBIR"/>
+            </form>
+
+            <!-- ----------------------------------- -->
+            <!--        FIN SUBIR IMAGENES           -->
+            <!-- ----------------------------------- -->
+
             <h3 class="backColor">Que es?</h3>
             <p class="backColor">
                 La reforestación consiste en repoblar zonas deforestadas para recuperar bosques destruidos en el pasado

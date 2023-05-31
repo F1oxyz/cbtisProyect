@@ -7,13 +7,12 @@
 } */
 
 body{
-    background-image: url("../img/ecologia/back1.jpg");
-    /* background-size: cover;
-    background-position: center; */
+    background-color: rgba(115, 218, 95, 0.247);
+    min-width: 440px;
 }
 
 .backColor{
-    background-color: #77757523;
+    background-color: #7aeb7a50;
     border-radius: 15px;
     padding: 10px;
 }
