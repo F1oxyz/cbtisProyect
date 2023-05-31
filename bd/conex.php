@@ -2,7 +2,7 @@
     $host = "localhost";
     $dbuser = "root";
     $dbpassword = "cbtis150$";
-    $dbname = "imagenes";
+    $dbname = "images_db";
 
 
 
