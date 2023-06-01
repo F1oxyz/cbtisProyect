@@ -43,7 +43,7 @@
                     <li><a href="especialidades.html">Especialidades</a></li>
                     <li><a href="acts.html">Actividades</a></li>
                     <li><a href="prototipos.html">Prototipos</a></li>
-                    <li><a href="ecologia.html">Ecologia</a></li>
+                    <li><a href="ecologia.php">Ecologia</a></li>
                     <li><a href="#footer">info</a></li>
                 </ul>
             </nav>
@@ -181,6 +181,19 @@
                     <button name="submit" class="btn btn-primary">Cargar Imagen</button>
                 </div>
             </form>
+
+            <div class="imagenes">
+            <?php 
+                include_once "./bd/conex.php"; 
+                $query = "SELECT id,imagenes,creado FROM images_tabla;"; 
+                    $res = mysqli_query($conexion, $query); 
+                    while ($row = mysqli_fetch_assoc($res)) { 
+            ?> 
+                        <img width="100" src="data:image/jpg;base64,<?php echo  base64_encode($row['imagenes']); ?>"> 
+                    <?php 
+                    } 
+                    ?> 
+            </div>
 
             <!-- ----------------------------------- -->
             <!--        FIN SUBIR IMAGENES           -->

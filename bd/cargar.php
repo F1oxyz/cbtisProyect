@@ -25,7 +25,7 @@ if(isset($_POST["submit"])){
         if($insertar){
             echo "Archivo Subido Correctamente.";
             ?>
-            <a href="./ver.php">Ver la imagen aqui
+            <a href="../ecologia.php">Ver la imagen aqui
             </a>
             <?php
             
