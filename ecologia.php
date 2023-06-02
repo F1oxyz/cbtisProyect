@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/ecologia.css">
+    <link rel="stylesheet" href="./assets/css/estiloCarrusel.css">
     <link rel="shortcut icon" href="./assets/img/logoCbtis.png">
+    <script defer src="./assets/js//carrusel.js"></script>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <title>Proyecto</title>
 </head>
@@ -195,6 +197,16 @@
                     ?> 
             </div>
 
+            <div class="container__carrusel">
+                    <div class="carrusel">
+                        <img src="./Imagenes/refo1.jpg" alt="imagen1" class="img__carrusel">
+                    </div>
+                    
+                    <ul id="puntos__carrusel">
+                        <li class="punto activo"></li>
+                    </ul>
+                </div>
+
             <!-- ----------------------------------- -->
             <!--        FIN SUBIR IMAGENES           -->
             <!-- ----------------------------------- -->
@@ -250,6 +262,56 @@
     </footer>
 
     <script src="./assets/js/main.js"></script>
+    <script>
+        const grande    = document.querySelector('.carrusel');
+        
+        const listas = document.getElementById("puntos__carrusel");
+        
+        <?php $query = "SELECT id,imagenes,creado FROM images_tabla;"; 
+            $res = mysqli_query($conexion, $query); 
+            $numfila = mysqli_num_rows($res);
+
+            ?>
+        const numImg = <?php echo $numfila; ?>;
+        const resta = 100 / numImg;
+        console.log(numImg);
+        for (let  i = 0;  i < numImg;  i++) {
+            const agregar = document.createElement("li");
+                agregar.className= "punto";
+                
+                listas.appendChild(agregar);
+        }
+        const punto = document.querySelectorAll('.punto');
+        punto.forEach( ( cadaPunto , i )=> {
+            punto[i].addEventListener('click',()=>{
+
+                let posicion  = i;
+                let operacion = posicion * -resta ;
+
+                grande.style.transform = `translateX(${ operacion }%)`;
+                
+                
+
+                punto.forEach( ( cadaPunto , i )=>{
+
+                    punto[i].classList.remove('activo');
+                })
+
+                punto[i].classList.add('activo');
+
+            })
+        })
+        let img = document.createElement("img");
+        img.className="img__carrusel";
+         <?php 
+                while ($row = mysqli_fetch_assoc($res)) { 
+            ?> 
+                       img.value=[<?php echo  base64_encode($row['imagenes']); ?>]; 
+                    <?php 
+                    } 
+            ?>
+        grande.appendChild(img);
+    </script>
 </body>
 
 </html>

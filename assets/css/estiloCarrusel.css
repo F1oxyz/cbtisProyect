@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+:root {
+  --color-oscuro: #000000;
+  --color-claro: #d8e2d5;
+  --sombra-ppal: #b3bbaf;
+  --sombra-sec: #b5c0b5;
+  --borde-negro: #02110150;
+  --marcado: rgb(40, 150, 104);
+  /* Tipografía */
+  --tipo-principal: Helvetica, Arial, sans-serif;
+}
+
+
+
+
+
+.container__carrusel{
+    width: 80%;
+    max-width: 120em;
+    padding: 2em;
+    color: var(--color-oscuro);
+    margin: auto;
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: var(--color-claro);
+    overflow: hidden;
+    padding-top: 2em;
+  }
+  
+  .container__carrusel .carrusel {
+    width: 800%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-oscuro);
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: var(--color-claro);
+    box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+    padding: 2em;
+    transition: all 0.5s ease;
+    transform: translateX(0%);
+  }
+  
+  .container__carrusel .img__carrusel {
+    width: calc( 100% / 8 - 8em);
+    min-height: 10vh;
+    color: var(--color-oscuro);
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: var(--color-claro);
+    box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  }
+  
+  .container__carrusel #puntos__carrusel {
+    width: 100%;
+    margin: 1em 0 0;
+    padding: 0.4em;
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container__carrusel #puntos__carrusel li {
+    list-style: none;
+    width: 2em;
+    height: 2em;
+    margin: 1em 1em 0;
+    color: var(--negro);
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: var(--color-claro);
+    box-shadow: 0.6em 0.6em 1.2em var(--sombra-ppal), -0.6em -0.6em 1.2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  }
+  
+  .container__carrusel #puntos__carrusel li[class="activo"] {
+    background-color: #28c53f;
+  }
+
+  @media screen and (max-width: 1000px){
+    .container__carrusel{
+      padding: 0;
+      margin: 0;
+      margin: auto;
+    }
+    .car .container__carrusel .carrusel{
+      margin: 0;
+      padding: 0;
+    }
+    .container__carrusel .img__carrusel {
+      width: calc( 100% / 3 - 3em);
+      min-height: 10vh;
+      color: var(--color-oscuro);
+      transition: all 0.4s ease;
+      border-radius: 1em;
+      background-color: var(--color-claro);
+      box-shadow: .5em .5em 1em var(--sombra-ppal), -.5em -.5em 1em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+    }
+  }
