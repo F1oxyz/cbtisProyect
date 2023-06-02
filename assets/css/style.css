@@ -1,0 +1,516 @@
+
+body{
+    background-color: #E3D3C6;
+}
+
+.container__principal{
+    margin: 30px 170px;
+}
+.div__act{
+    margin: 30px 100px;
+}
+
+hr{
+    margin: 50px;
+}
+
+.container__button__back {
+    position: fixed;
+    bottom: 8vh;
+    right: 3vw;
+    z-index: 1;
+}
+.button__back{
+    background-color: #27ae59;
+    color: #fff;
+    border-radius: 35px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+.button__back svg{
+    width: 15px;
+    transition: all .3s;
+}
+.button__back:hover{
+    background-color: #6cd397;
+}
+.button__back:hover svg{
+    width: 18px;
+    color: #cbc799;
+}
+
+
+/*name web*/
+header{
+    background: url(../Fondo/fondo1.png);
+    z-index: 10;
+}
+.div__name-web{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo__responsive{
+    width: 10vw;
+    min-width: 50px;
+    max-width: 130px;
+}
+.logo__responsive img{
+    width: 100%;
+}
+
+/*general*/
+h1{
+    font-size: calc(19px + 1vw);
+    margin: 20px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: calc(16px + .8vw);
+}
+
+/*menu*/
+.button__menu{
+    display: none;
+    border: none;
+    width: 30px;
+    height: 20px;
+    color: #fff;
+    background-color: #0C231E;
+}
+.button__menu svg{
+    width: 19px;
+    transition: all .3s;
+}
+.button__menu svg:hover{
+    width: 22px;
+    fill: #cbc799;
+}
+.ul__menu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.li__menu{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 5px 10px;
+}
+.li__menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all .5s;
+}
+.nav{
+    background-color: #0C231E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 11;
+}
+.li__menu a:hover{
+    color: #85d5b4;
+    font-size: 20px;
+}
+
+.div__name-web h2{
+    color: #56070c;
+    font-size: calc(15px + 1vw);
+    text-align: center;
+}
+
+
+.button__menu__categorias{
+    display: none;
+    border: none;
+    width: 30px;
+    height: 20px;
+    color: #fff;
+    background-color: #0C231E;
+}
+.button__menu__categorias svg{
+    width: 13px;
+    transition: all .3s;
+}
+.button__menu__categorias svg:hover{
+    width: 16px;
+    fill: #cbc799;
+}
+.ul__menu__categorias{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.li__menu__categorias{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 5px 10px;
+}
+.li__menu__categorias a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all .5s;
+}
+.container__menu__categorias{
+    background-color: #153c34;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ul__menu__categorias a:hover{
+    color: #88d699;
+    font-size: 18px;
+}
+
+
+
+@media screen and (max-width: 1000px){
+    .button__menu{
+        position: absolute;
+        right: 10px;
+        display: block;
+        cursor: pointer;
+    }
+    header{
+        width: 100%;
+    }
+    .container__button__menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 52px;
+        background-color: #0C231E;
+    }
+    .nav{
+        display: none;
+        position: absolute;
+        right: 0;
+        height: 100vh;
+    }
+    .ul__menu{
+        flex-direction: column;
+        align-items: end;
+        margin: auto;
+    }
+    .li__menu{
+        margin: 10px 26px;
+    }   
+    .li__menu a{
+        font-size: 14px;
+    }
+    .li__menu a:hover{
+        color: #85d5b4;
+        font-size: 14px;
+    }
+    .nav.activo{
+        display: block;
+    } 
+
+    .button__menu__categorias{
+        display: block;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+    .container__menu__categorias{
+        display: none;
+        position: absolute;
+        left: 0;
+    }
+    .ul__menu__categorias{
+        flex-direction: column;
+        align-items: end;
+        margin: auto;
+        transition: all 1s;
+        text-align: center;
+    }
+    .li__menu__categorias{
+        margin: 6px 10px;
+    }   
+    .li__menu__categorias a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        transition: all .5s;
+    }
+    .li__menu__categorias a:hover{
+        color: #88d699;
+        font-size: 14px;
+    }
+    .container__menu__categorias.activo{
+        display: block;
+        transition: all 1s ease;
+    } 
+
+
+
+    .div__act{
+        margin: 10px 30px;
+    }
+    .container__principal{
+        margin: 10px;
+    }
+}
+
+
+.ul__submenu__ecologia{
+    display: none;
+}
+.ul__submenu__ecologia.activo{
+    display: block;
+    position: absolute;
+    height: 120px;
+    list-style: none;
+    background-color: #0c231ebd;
+}
+
+
+.ul__submenu__ecologia a{
+    font-size: 15px;
+}
+.ul__submenu__ecologia li{
+    margin: 15px;
+}
+.ul__submenu__ecologia a:hover{
+    font-size: 15px;
+}
+.button__submenu__ecologia{
+    width: 12px;
+    height: 12px;
+    background-color: #0C231E;
+    border: none;
+    cursor: pointer;
+}
+/*footer*/
+.footer{
+    background-color: #0C231E;
+}
+.div__container__footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.items__footer{
+    margin: 10px 30px;
+    padding: 40px;
+}
+.siguenos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.items__footer h2{
+    margin-bottom: 15px;
+    color: #fff;
+}
+.items__footer p{
+    color: #fff;
+    list-style: none;
+}
+.items__footer:first-child p:last-child{
+    margin-top: 15px;
+}
+.red__social a{
+    text-decoration: none;
+}
+.items__footer svg{
+    fill: #fff;
+    width: 27px;;
+}
+.items__footer .red__social:last-child svg{
+    width: 30px;
+}
+.items__footer svg:hover{
+    fill: #cbc799;
+}
+.div__container__footer-2 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.div__container__footer-2 small{
+    color: #fff;;
+}
+
+
+/*index*/
+
+
+
+/*quienes somos*/
+.container__quienes__somos{
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.items__quienes__somos{
+    min-width: 240px;
+    max-width: 600px;
+    flex-grow: 1;
+    margin: 20px;
+}
+.items__quienes__somos h2{
+    text-align: center;
+}
+.container__img__qsomos{
+    width: 75vw;
+    max-width: 600px;
+    min-width: 230px;
+    margin: auto;
+    margin-top: 50px;
+}
+.container__img__qsomos img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.items__quienes__somos p{
+    margin: 20px 10px;
+    font-size: 18px;
+    
+}
+.ul__quienes__somos{
+    margin: 20px 40px;
+    font-size: 18px;
+}
+
+
+/*agenda*/
+
+
+
+/*metas ODS*/
+
+/*actividades*/
+
+/*prototipos*/
+.container__proto{
+    margin: 30px 50px;
+}
+@media screen and (max-width: 1000px){
+    .container__proto{
+        margin: 10px;
+    }
+}
+
+.items__empredimiento p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.h2__prototipo{
+    text-align: center;
+    margin-top: 60px;
+    margin: 10px 20px;
+    border-radius: 16px;
+    color: #fff;
+}
+.h2__prototipo.verde{
+    background-color: #26c047;
+}
+.h2__prototipo.social{
+    background-color: #c52813;
+}
+.h2__prototipo.didactico{
+    background-color: #e6df13;
+}
+.h2__prototipo.software{
+    background-color: #1a2f76;
+}
+.h2__prototipo.tecnologico{
+    background-color: #343232;
+}
+.h2__prototipo.ganadores{
+    background-color: #D4AF37;
+}
+.h2__prototipo.ganadores svg{
+    width: 20px;
+}
+
+.div__container__empredimiento{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 30px 20px 80px 20px;
+    padding: 20px;
+}
+.div__container__empredimiento.verde{
+    background-color: #26c0474e ;
+}
+.div__container__empredimiento.social{
+    background-color: #c528134e;
+}
+.div__container__empredimiento.didactico{
+    background-color: #e6df134e;
+}
+.div__container__empredimiento.software{
+    background-color: #1a2f764e;
+}
+.div__container__empredimiento.tecnologico{
+    background-color: #3432324e;
+}
+
+.items__empredimiento{
+    min-width: 150px;
+    max-width: 350px;
+    margin: 10px 2px;
+}
+.items__empredimientos.didactico{
+    background-color: #e6df134e;
+}
+.items__empredimientos.verde{
+    background-color: #26c0474e;
+}
+.items__empredimientos.software{
+    background-color: #1a2f764e;
+}
+.items__empredimientos.tecnologico{
+    background-color: #3432324e;
+}
+.items__empredimientos.social{
+    background-color: #c528134e;
+}
+.items__empredimientos{
+    min-width: 150px;
+    max-width: 350px;
+    margin: 10px 2px;
+}
+.items__empredimientos h3{
+    text-align: center;
+}
+.items__empredimientos p{
+    text-align: center;
+}
+
+.items__empredimiento h3{
+    text-align: center;
+}
+.container__img__empredimiento{
+    min-width: 125px;
+    max-width: 300px;
+    margin: 30px;
+}
+.container__img__empredimiento img{
+    width: 100%;
+    margin: auto;
+    border-radius: 18px;
+}
+
+
+/*especialidades*/
+
+/*ecologia*/
