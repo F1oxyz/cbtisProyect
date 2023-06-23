@@ -227,14 +227,16 @@
     <footer id="footer">
         <div class="conteiner-footer">
             <div class="box-footer">
-                <div class="terms">
-                    <h2>Desarrollador</h2>
-                    <p>Angela Flores Diaz</p>
-                    <p>4 "C"</p>
-                    <br>
-                    <p><strong>Profesora</strong></p>
-                    <p>Maria del Pilar Leyva Ortiz</p>
-                </div>
+            <div class="terms">
+                        <h2>Desarrolladores</h2>
+                        <p>Angela Flores Diaz</p>
+                        <p>Edwin Isai Cruz Ramirez</p>
+                        <p>Bryan Gonzalo Hernandez Vazquez</p>
+                        <p>Zoraida Madai Castillo Cruz</p>
+                        <p>Susana Luis Anciola</p>
+                        <p>4 "C"</p>
+                        <br>
+                    </div>
             </div>
             <div class="box-footer">
                 <h2>Contacto</h2>
